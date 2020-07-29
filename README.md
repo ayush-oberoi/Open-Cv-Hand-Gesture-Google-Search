@@ -40,39 +40,39 @@ intelligence.
 	
 - Create project in pycharm
 		
-  1. Create a new project
-	2. import the python 3.6 interpreter as `base interpreter` option and let everything as it is.
-	3. We got our own virtual environment .
-	4. Go to file->settings
-	5. in left hand column select `project` tab -> project interpreter
-	6. Here we can see installed package , go to `+` sign on the right.
-	7. Now we get the list of packages which we can install.
-	8. Install all the libraries with specific version mentioned above.
-	9. Now we have all the libraries installed.
+  		a. Create a new project
+		b. import the python 3.6 interpreter as `base interpreter` option and let everything as it is.
+		c. We got our own virtual environment .
+		d. Go to file->settings
+		e. in left hand column select `project` tab -> project interpreter
+		f. Here we can see installed package , go to `+` sign on the right.
+		g. Now we get the list of packages which we can install.
+		h. Install all the libraries with specific version mentioned above.
+		i. Now we have all the libraries installed.
 	
 - Running the given project
 		
-  1. Go to file -> open -> select the required python file from destination where it is copied.
-	2. the file gets opened
-	3. right click on the file -> select run
-	4. Program gets executed.
+  		a. Go to file -> open -> select the required python file from destination where it is copied.
+		b. the file gets opened
+		c. right click on the file -> select run
+		d. Program gets executed.
 	
 - What to do after program gets executed
 		
-  1. It open ups the webcam , wait for the calibration (3 sec).
-	2. place your hand as ‘1’ into the rectangle. It will recognize the numbers as shown 0-5.
-	3. whenever we show ‘4’ , the gesture control gets triggered , it open up the browser , triggers google voice search , user speak anything to search , search   gets completed.
-	4. This control we have restricted for only working for once to improve gesture control mechanism.
-	5. To make control again , re-run the program , show ‘4’ and search is excecuted.
+  		a. It open ups the webcam , wait for the calibration (3 sec).
+		b. place your hand as ‘1’ into the rectangle. It will recognize the numbers as shown 0-5.
+		c. whenever we show ‘4’ , the gesture control gets triggered , it open up the browser , triggers google voice search , user speak anything to search , search   gets completed.
+		d. This control we have restricted for only working for once to improve gesture control mechanism.
+		e. To make control again , re-run the program , show ‘4’ and search is excecuted.
 	
 - Important pre-requisites and setup to run the project
 		
-  1. To avoid calibration issues with the contours as these are still sensitive , We recommend to
+  		a. To avoid calibration issues with the contours as these are still sensitive , We recommend to
 		have a clear background in front of webcam without any object.
-	2. It takes around 3 secs to calibrate and adjust pixel frames. during this, webcam should be
+		b. It takes around 3 secs to calibrate and adjust pixel frames. during this, webcam should be
 		stable.
-	3. Place your hand fully in the rectangle with fingers touching the top side of rectangle so as to
+		c. Place your hand fully in the rectangle with fingers touching the top side of rectangle so as to
 		detect full curvature of hand and finger and detect number accordingly.
-	4. Have sufficient lighting for contours to easily grep around the hand . Insufficient lighting would
+		d. Have sufficient lighting for contours to easily grep around the hand . Insufficient lighting would
 		result in inaccuracy.
 
