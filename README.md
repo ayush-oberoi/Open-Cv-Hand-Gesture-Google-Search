@@ -1,5 +1,7 @@
 # Open-Cv-Hand-Gesture-Google-Search
 
+
+<img src="hand1.png" alt="drawing" width="600" height="300"/>
 Hand Gesture Recognition and Control using cv2
 
 
